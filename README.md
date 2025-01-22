@@ -4,6 +4,11 @@ Este é um projeto de aplicação web para visualização e postagem de vagas de
 
 ![Projeto Jobs](./src/assets/images/homePagePrint.png)
 
+> [!NOTE]
+> A `branch main` usa JSON Server e possui o CRUD funcional, enquanto a `branch hosting` possui um .json estático para hospedar na vercel com os dados mockados
+> 
+> Site online: https://projeto-jobs.vercel.app
+
 ## Tecnologias Utilizadas
 
 - **React** (v18.3.1)
