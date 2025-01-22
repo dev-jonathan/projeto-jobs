@@ -4,6 +4,10 @@ Este é um projeto de aplicação web para visualização e postagem de vagas de
 
 ![Projeto Jobs](./src/assets/images/homePagePrint.png)
 
+> [!NOTE]
+> A `branch main` usa Server Json e possui o CRUD funcional, enquanto a `branch hosting` possui um .json estático para hospedar na vercel com os dados mockados
+> Site online: https://projeto-jobs.vercel.app/
+
 ## Tecnologias Utilizadas
 
 - **React** (v18.3.1)
@@ -36,7 +40,7 @@ Este é um projeto de aplicação web para visualização e postagem de vagas de
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-repositorio/projeto-jobs.git
+   git clone https://github.com/dev-jonathan/projeto-jobs.git
    cd projeto-jobs
    ```
 

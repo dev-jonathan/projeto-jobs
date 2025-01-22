@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 const HomePage = () => {
   useEffect(() => {
     toast.warning(
-      "Aviso: Este site é estático. Para acessar a versão dinâmica com CRUD funcional, visite: github.com/seu-repositorio"
+      "Aviso: Este site é estático. Para acessar a versão dinâmica com CRUD funcional, visite: https://github.com/dev-jonathan/projeto-jobs"
     );
   }, []);
 
