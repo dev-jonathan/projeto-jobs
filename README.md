@@ -1,46 +1,67 @@
-# React + Vite
+# Projeto Jobs - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de aplicação web para visualização e postagem de vagas de trabalho. Desenvolvido com React + Vite
 
-Currently, two official plugins are available:
+![Projeto Jobs](./src/assets/images/homePagePrint.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
+- **React** (v18.3.1)
+- **Vite** (v5.3.1)
+- **React Router Dom** (v6.24.1)
+- **TailwindCSS** (v3.4.4)
+- **React Icons**, **React Spinners** , **React Toastify**
+- **JSON Server** (para simular um banco de dados)
 
-=========================
+---
 
-TER NODE INSTALADO
-https://tailwindcss.com/docs/guides/vite
+## Recursos
 
-recomendado instalar react developer tools, extensao do crhome (https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- Interface para visualização de vagas.
+- Simulação de backend com JSON Server.
+- Integração de bibliotecas para estilização e componentes adicionais.
+- Navegação entre páginas utilizando React Router.
 
+---
 
-npm create vite@latest projeto-jobs
+## Requisitos
 
-√ Select a framework: » React
-√ Select a variant: » JavaScript
+- Node.js instalado ([download aqui](https://nodejs.org/)).
+- (Opcional) Extensão **React Developer Tools** para inspeção no navegador ([instale aqui](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)).
 
+---
 
-npm install
+## Passo a Passo para Rodar o Projeto
 
+1. Clone o repositório:
 
-instale a extensao da /image.png
+   ```bash
+   git clone https://github.com/seu-repositorio/projeto-jobs.git
+   cd projeto-jobs
+   ```
 
-na instalacao vem alguns css padrao, basta apagar o conteudo deles
+2. Instale as dependências:
 
-npm install react-icons
+   ```bash
+   npm install
+   ```
 
-npm i react-router-dom
+3. Execute o servidor local para simular um backend:
 
+   ```bash
+   npm run server
+   ```
 
- npm i -D json-server (simula um db local)
- adicionado no scripts do package.json : "server": "json-server --watch src/jobs.json --port 8000"
+   O servidor estará disponível em: [http://localhost:8000](http://localhost:8000).
 
- agora basta fazer npm run server
+4. Inicie o projeto em modo de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+   O projeto estará disponível em: [http://localhost:5173](http://localhost:5173).
 
+---
 
-  npm i react-spinners
+## Observações
 
-
-  $ npm i react-toastify
+Não há integração com um banco de dados hospedado ou funcionalidades avançadas de backend. Tudo é simulado localmente com o JSON Server. Foi inspirado nesse [curso](https://www.youtube.com/watch?v=LDB4uaJ87e0).
